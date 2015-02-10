@@ -19,7 +19,7 @@ See live demo here: <a href="http://demo.wpexpert24.com/rd-hover-effect/" target
 
 <li>Easy to use</li>
 <li>No Javascript Pure CSS3</li>
-<li>External link for each hover item</li>
+<li>Button link for each hover item</li>
 <li>5 unique hover effects</li>
 <li>Compatible for all major browsers</li>
 <li>Custom post enabled </li>
@@ -36,6 +36,8 @@ See live demo here: <a href="http://demo.wpexpert24.com/rd-hover-effect/" target
 	<li>17+ Hover Effects</li>
 	<li>Change Text With Google Font</li>
 	<li>Unlimited Hover Items</li>
+	<li>increase/decrease hover item width</li>
+	<li>increase/decrease hover item height</li>
 	<li>Change Unlimited color with Color Picker</li>
 	<li>24/7 Support</li>
 
