@@ -221,8 +221,8 @@ add_shortcode('hover', 'rd_hover_effects_shortcode');
     'modal_title' => __( 'Hover Shortcode', 'vp_textdomain'),
     'button_title' => __( 'Hover Shortcode', 'vp_textdomain'),
     'types' => array( 'post', 'page' ),
-    'main_image' => VP_RDHOVER_URL . 'images/coupon.png',
-    'sprite_image' => VP_RDHOVER_URL . 'images/coupon.png',
+    'main_image' => VP_RDHOVER_URL . 'images/hover-shortcode.png',
+    'sprite_image' => VP_RDHOVER_URL . 'images/hover-shortcode.png',
     //'included_pages' => array( 'appearance_page_vpt_option' ),
     );
     
