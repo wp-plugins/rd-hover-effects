@@ -34,7 +34,7 @@ See live demo here: <a href="http://demo.wpexpert24.com/rd-hover-effect/" target
 <ul>
 	<li>External link for each hover item with new TAB.</li>
 	<li>17+ Hover Effects</li>
-	<li>Change Text With Google Font</li>
+	<li>Change Font Family With 500+Google Font</li>
 	<li>Unlimited Hover Items</li>
 	<li>increase/decrease hover item width</li>
 	<li>increase/decrease hover item height</li>
