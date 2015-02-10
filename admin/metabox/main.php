@@ -12,6 +12,14 @@ return array(
 		'title'     => __('RD Hover Item', 'vp_textdomain'),
 		'fields'    => array(
 		
+				array(
+			'type' => 'notebox',
+			'name' => 'nb_1',
+			'label' => __('Author Comment', 'vp_textdomain'),
+			'description' => __('If you want to enable awesome features, you need to buy pro version from here <a href="http://demo.wpexpert24.com/rd-hover-effect/">RD Hover Effects Pro</a>', 'vp_textdomain'),
+			'status' => 'error',
+				),
+		
 			 array(
 				'type' => 'upload',
 				'name' => 'imgup_1',
