@@ -189,6 +189,9 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 
 1. Adding RD hover item with category
 2. You can select which Hover item you want to appear first.  You can also select all of your items and drag to move the order of each up and down in the Custom Post Panel.
+3. click the Rd hover Item Shortcode Button, you will then see a Box open with a ShortCode Option Panel.
+4. ShortCode Option Panel. Put the same category name which you created before with RD hover Item, and select a style. click Insert.
+5. you will see a Shortcode in your post/page editor just publish and view page.
 
 == Changelog ==
 
