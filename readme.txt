@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure CSS3. Easy to use the beautiful amazing Image Hover Effects for your website.
 
 
-See live demo here: <a href="http://demo.wpexpert24.com/rd-hover-effect/" target="_blink"></a>
+See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
 
 <strong>Features</strong>
 <ul>
