@@ -514,5 +514,6 @@ font-size: 22px !important;
 margin: 0 !important;
 }
 .rakib-dev img {
-  height: 100% !important;
+height: 100% !important;
+max-width: 100% !important;
 }			
