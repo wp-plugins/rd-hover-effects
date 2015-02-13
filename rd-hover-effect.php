@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts', 'rd_hover_effects_style' );
 
 
 // Loading VafPress Framework
-if(!class_exists('VP_AutoLoader')){
+if(!class_exists('VP_rdhoverAutoLoader')){
 // Setup Contants
 defined( 'VP_RDHOVER_VERSION' ) or define( 'VP_RDHOVER_VERSION', '2.0' );
 defined( 'VP_RDHOVER_URL' )     or define( 'VP_RDHOVER_URL', plugin_dir_url( __FILE__ ) );
