@@ -14,6 +14,9 @@ RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure
 
 See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
 
+
+[https://www.youtube.com/watch?v=OOeX7ec5ADQ&feature=youtu.be]
+
 <strong>Features</strong>
 <ul>
 
