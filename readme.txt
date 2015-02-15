@@ -205,6 +205,8 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 
 <h2>And See the Magic of All RD Hover Effect, Enjoy!</h2>
 
+== How to use ==
+thanks
 == Screenshots ==
 
 1. Adding RD hover item with category
