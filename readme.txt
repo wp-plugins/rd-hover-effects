@@ -229,7 +229,9 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 
 == Changelog ==
 
+= 1.1 =
+*Fixed Bugs
+
 = 1.0 =
 * Initial Release
-= 1.1 =
-Fixed Bugs
+
