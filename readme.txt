@@ -3,7 +3,7 @@ Contributors: Rakibur Rahman Sagar
 Tags: hover,hover effect, css3 hover effect, image hover, hover effect wordpress plugin, content image hover, image caption, wp image caption, css3 transition, pure css3 effects, css3 hover item
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,8 +14,9 @@ RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure
 
 See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
 
-
-[youtube https://www.youtube.com/watch?v=OOeX7ec5ADQ&feature=youtu.be]
+<strong>Video Tutorial:
+</strong>
+[youtube https://www.youtube.com/watch?v=OOeX7ec5ADQ&]
 
 <strong>Features</strong>
 <ul>
@@ -35,14 +36,24 @@ See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
 </ul>
 <strong><a href="http://demo.wpexpert24.com/rd-hover-effect/">Pro Version Features</a></strong>
 <ul>
-	<li>External link for each hover item with new TAB.</li>
-	<li>17+ Hover Effects</li>
+
+RD Hover Effects Pro Version Features :
+	 
+	<li>External link for each hover item</li>
+	<li>25+ Hover Effects</li>
 	<li>Change Font Family With 500+Google Font</li>
+	<li>Make item Middle in page</li>
 	<li>Unlimited Hover Items</li>
 	<li>increase/decrease hover item width</li>
 	<li>increase/decrease hover item height</li>
+	<li>Space between two items</li>
+	<li>Show/Hide Border</li>
+	<li>Chose Different Border Color</li>
+	<li>Space in bottom Dynamically</li>
 	<li>Change Unlimited color with Color Picker</li>
+	<li>Open link in new tab</li>
 	<li>24/7 Support</li>
+	
 
 </ul>
 
@@ -220,3 +231,5 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 
 = 1.0 =
 * Initial Release
+= 1.1 =
+Fixed Bugs
