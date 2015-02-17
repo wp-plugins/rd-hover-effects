@@ -104,6 +104,38 @@ return array(
 						array(
 							'value' => 'style17',
 							'label' => 'Style 17 (<strong>Pro Only</strong>)',
+						),		
+						array(
+							'value' => 'style18',
+							'label' => 'Style 18 (<strong>Pro Only</strong>)',
+						),		
+						array(
+							'value' => 'style19',
+							'label' => 'Style 19 (<strong>Pro Only</strong>)',
+						),				
+						array(
+							'value' => 'style20',
+							'label' => 'Style 20 (<strong>Pro Only</strong>)',
+						),				
+						array(
+							'value' => 'style21',
+							'label' => 'Style 21 (<strong>Pro Only</strong>)',
+						),		
+						array(
+							'value' => 'style22',
+							'label' => 'Style 22 (<strong>Pro Only</strong>)',
+						),		
+						array(
+							'value' => 'style23',
+							'label' => 'Style 23 (<strong>Pro Only</strong>)',
+						),		
+						array(
+							'value' => 'style24',
+							'label' => 'Style 24 (<strong>Pro Only</strong>)',
+						),		
+						array(
+							'value' => 'style25',
+							'label' => 'Style 25 (<strong>Pro Only</strong>)',
 						),			
 	
 				),	),			
@@ -155,6 +187,59 @@ return array(
 						'step' => '1',
 						'default' => '200',
 						),
+				
+array(
+						'type' => 'slider',
+						'name' => 'item_space_right',
+						'label' => __('Item margin Right (<strong style="color: red">PRO ONLY</strong>)', 'vp_textdomain'),
+						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
+						'min' => '1',
+						'max' => '200',
+						'step' => '1',
+						'default' => '5',
+						),
+
+					 array(
+						'type' => 'slider',
+						'name' => 'full_space_bottom',
+						'label' => __('Full Margin Bottom (<strong style="color: red">PRO ONLY</strong>)', 'vp_textdomain'),
+						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
+						'min' => '1',
+						'max' => '500',
+						'step' => '1',
+						'default' => '5',
+						),
+						
+						array(
+						'type' => 'slider',
+						'name' => 'hover_full_left',
+						'label' => __('Full Margin Left (<strong style="color: red">PRO ONLY</strong>)', 'vp_textdomain'),
+						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
+						'min' => '1',
+						'max' => '1000',
+						'step' => '1',
+						'default' => '1',
+						),
+						
+						
+					array(
+						'type' => 'checkbox',
+						'name' => 'item_border',
+						'label' => __('show border (<strong style="color: red">PRO ONLY</strong>)', 'vp_textdomain'),
+						'items' => array(
+							array(
+								'value' => '1px solid',
+							),
+						),
+					),
+					
+					array(
+						'type'  => 'color',
+						'name'  => 'border_color',
+						'label' => __('Border Color (<strong style="color: red">PRO ONLY</strong>)', 'vp_textdomain'),
+						'default' => '#ffffff',
+					),
+						
 				
 					array(
 						'type' => 'checkbox',
