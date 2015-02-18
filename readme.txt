@@ -34,7 +34,7 @@ See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
 <li>Unlimited hover items </li>
 
 </ul>
-<strong><a href="http://demo.wpexpert24.com/rd-hover-effect/">Pro Version Features</a></strong>
+<strong><a target="_blank" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">Pro Version Features</a></strong>
 <ul>
 
 RD Hover Effects Pro Version Features :
