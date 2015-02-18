@@ -342,7 +342,7 @@
    opacity: 1;
 }
 .rakib-dev-fourth .mask {
-   background-color: rgba(0,0,0,0.8);
+background: none repeat scroll 0 0 #44446c;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -446,7 +446,7 @@
    transition: all 0.3s ease-in-out;
 }
 .rakib-dev-fifth .mask {
-   background-color: rgba(112, 200, 0, 0.52);
+ background: none repeat scroll 0 0 #f39c12;
    -webkit-transform: translateX(-300px);
    -moz-transform: translateX(-300px);
    -o-transform: translateX(-300px);
@@ -516,4 +516,5 @@ margin: 0 !important;
 .rakib-dev img {
 height: 100% !important;
 width: 100% !important;
+border-radius: 0!important;
 }			
