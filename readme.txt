@@ -146,7 +146,7 @@ Another important thing to remember is that the image must always have its width
 
 
 <p>
-7.<strong> Five Field</strong> : "Enter button URL" Chose a button URL in this field. EX : <pre>http://wpexpert.com</pre>
+7.<strong> Five Field</strong> : "Enter button URL" Chose a button URL in this field. EX : <pre>http://wpexpert24.com</pre>
 	<strong>Note</strong>: Remember that you have to add a button URL.
 </p>
 
