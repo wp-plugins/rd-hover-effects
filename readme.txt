@@ -59,51 +59,33 @@ RD Hover Effects Pro Version Features :
 
 == Installation ==
 
-<p>
-Installation of <strong>RD Hover Effect</strong> is very simple. 
+<p>Installation of <strong>RD Hover Effect</strong> is very simple. </p>
 
 == Installation ==
 
-<p>
-Installation of <strong>RD Hover Effect</strong> is very simple. 
-</p>
+<p>Installation of <strong>RD Hover Effect</strong> is very simple.</p>
 
 <strong>Option 1</strong>
 
 <li> Download the plugin rd-hover-effects.zip from download location.</li>
-
 <li> Unpack the *.zip file and extract the RD Hover Effects folder.</li>
-
 <li> Drop the RD Hover Effects plugin folder into your wp-content/plugins folder.</li>
-
 <li> In word press administration panels, click on Plugins from the menu.</li>
-
 <li> You should see your plug-in listed under Inactive plug-in tab.</li>
-
 <li> To turn the word presses plug-in on, click activate.</li>
-
 
 <strong>Option 2</strong>
 
 <li> Download the plugin RD Hover Effects Plugin from download location.</li>
-
 <li> Go to Add New menu under Plugins tab in your word-press admin.</li>
-
 <li> Select upload link (top link menu).</li>
-
 <li> Upload the available RD Hover Effects Plugin file and click install now</li>
-
 <li> Finally click activate plug-in link to activate the plug-in.</li>
 
-
 <h3>Settings Page</h3>	
-<p>
-Under <strong>Settings -&gt; RD Hover effect plugin</strong> you can configure the basic settings. Everything else can be done on the fly via Custom post named<strong> RD HOVER EFFECT</strong> on your Dashboard and via the Shortcode option on any Page or Post that you want.
-</p>
+<p>Under <strong>Settings -&gt; RD Hover effect plugin</strong> you can configure the basic settings. Everything else can be done on the fly via Custom post named<strong> RD HOVER EFFECT</strong> on your Dashboard and via the Shortcode option on any Page or Post that you want.</p>
 
-<p>
-<strong>Add RD Hover Effect- </strong>Allows you to add hover feature to Custom Posts as well as add information such as:  Title, Description, Image, Button name and Button Link in the RD Hover Effect custom post.
-</p>
+<p><strong>Add RD Hover Effect- </strong>Allows you to add hover feature to Custom Posts as well as add information such as:  Title, Description, Image, Button name and Button Link in the RD Hover Effect custom post.</p>
 
 
 <p><strong>Item Position -</strong> You can select which Hover item you want to appear first.  You can also select all of your items and drag to move the order of each up and down in the Custom Post Panel. </p>
