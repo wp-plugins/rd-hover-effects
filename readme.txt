@@ -82,7 +82,8 @@ RD Hover Effects Pro Version Features :
 <li> Upload the available RD Hover Effects Plugin file and click install now</li>
 <li> Finally click activate plug-in link to activate the plug-in.</li>
 
-<h3>Settings Page</h3>	
+<strong>Settings Page</strong>	
+
 <p>Under <strong>Settings -&gt; RD Hover effect plugin</strong> you can configure the basic settings. Everything else can be done on the fly via Custom post named<strong> RD HOVER EFFECT</strong> on your Dashboard and via the Shortcode option on any Page or Post that you want.</p>
 
 <p><strong>Add RD Hover Effect- </strong>Allows you to add hover feature to Custom Posts as well as add information such as:  Title, Description, Image, Button name and Button Link in the RD Hover Effect custom post.</p>
@@ -94,7 +95,7 @@ RD Hover Effects Pro Version Features :
 <strong>Category - </strong>Choose the Category as you want to use for your hover effects.</p>
 
 
-<h3>How To Use</h3>
+<strong>How To Use</strong>
 
 <p>When you go to your Wordpress Dashboard you will now see a new custom post named <strong>RD hover Effect </strong>in your left toolbar under 
 
