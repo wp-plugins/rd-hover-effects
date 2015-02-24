@@ -39,6 +39,7 @@ text-align: center;
 text-transform: uppercase;
 }
 .rakib-dev p {
+margin-bottom: 20px !important;
 color: #fff;
 font-family: Georgia,serif;
 font-size: 13px;
