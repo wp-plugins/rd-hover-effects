@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure CSS3. Easy to use the beautiful amazing Image Hover Effects for your website.
 
 
-See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
+See live demo here: http://wpexpert24.com/rd-hover-effects-wordpress/
 
 <strong>Video Tutorial:
 </strong>
@@ -34,7 +34,7 @@ See live demo here: http://demo.wpexpert24.com/rd-hover-effect/
 <li>Unlimited hover items </li>
 
 </ul>
-<strong><a target="_blank" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">Pro Version Features</a></strong>
+<strong><a target="_blank" href="http://wpexpert24.com/rd-hover-effects-pro-details/">Pro Version Features</a></strong>
 <ul>
 
 RD Hover Effects Pro Version Features :
@@ -211,6 +211,10 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 5. you will see a Shortcode in your post/page editor just publish and view page.
 
 == Changelog ==
+
+= 1.2 =
+* Fixed color issue
+* hover padding issue fix
 
 = 1.1 =
 * Fixed Bugs
