@@ -111,6 +111,7 @@
    -ms-transition: all 0.2s ease-in;
    transition: all 0.2s ease-in;
 }
+
 .rakib-dev-second .mask {
    background-color: rgba(115,146,184, 0.7);
    width: 300px;
@@ -158,11 +159,11 @@
    transition: all 0.2s ease-in-out;
 }
 .rakib-dev-second a.info {
-   -webkit-transform: translate(0px, 100px);
-   -moz-transform: translate(0px, 100px);
-   -o-transform: translate(0px, 100px);
-   -ms-transform: translate(0px, 100px);
-   transform: translate(0px, 100px);
+   -webkit-transform: translate(0px, 120px);
+   -moz-transform: translate(0px, 120px);
+   -o-transform: translate(0px, 120px);
+   -ms-transform: translate(0px, 120px);
+   transform: translate(0px, 120px);
    -webkit-transition: all 0.2s 0.1s ease-in-out;
    -moz-transition: all 0.2s 0.1s ease-in-out;
    -o-transition: all 0.2s 0.1s ease-in-out;
@@ -226,7 +227,7 @@
    transition: all 0.2s ease-in;
 }
 .rakib-dev-third .mask {
-   background-color: rgba(0,0,0,0.6);
+   background-color: rgba(64, 115, 170, 0.6);
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -342,7 +343,7 @@
    opacity: 1;
 }
 .rakib-dev-fourth .mask {
-background: none repeat scroll 0 0 #44446c;
+background: none repeat scroll 0 0 #3498db;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -517,4 +518,4 @@ margin: 0 !important;
 height: 100% !important;
 width: 100% !important;
 border-radius: 0!important;
-}			
+}

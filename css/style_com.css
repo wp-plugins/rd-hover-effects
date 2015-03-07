@@ -49,21 +49,30 @@ padding: 10px 20px 0;
 position: relative;
 text-align: center;
 }
-.rakib-dev a.info {
+
+.rakib-dev a {
 background-color: rgba(0, 0, 0, 0.4);
 border-bottom: 0 none;
 box-shadow: 0 0 1px #000;
-color: #fff !important;
+color: #fff;
 display: inline-block;
 font-size: 15px;
 padding: 5px 14px;
 text-decoration: none;
 text-transform: uppercase;
 }
-.rakib-dev a.info: hover {
-   -webkit-box-shadow: 0 0 5px #000;
-   -moz-box-shadow: 0 0 5px #000;
-   box-shadow: 0 0 5px #000;
+.rakib-dev a:hover {
+background-color: rgba(0, 0, 0, 0.4);
+border-bottom: 0 none;
+color: #fff;
+display: inline-block;
+font-size: 15px;
+padding: 5px 14px;
+text-decoration: none;
+text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+box-shadow: 0 0 1px #000;
 }
 
 #style1  ul, #style2  ul, #style3  ul, #style4  ul, #style5  ul{
