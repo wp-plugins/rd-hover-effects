@@ -16,7 +16,7 @@ return array(
 			'type' => 'notebox',
 			'name' => 'nb_1',
 			'label' => __('Author Comment', 'vp_textdomain'),
-			'description' => __('If you want to enable awesome features, you need to buy pro version from here <a href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">RD Hover Effects Pro</a>', 'vp_textdomain'),
+			'description' => __('If you want to enable awesome features, you need to buy pro version from here <a target="_blank" href="http://wpexpert24.com/rd-hover-effects-pro/">RD Hover Effects Pro</a>', 'vp_textdomain'),
 			'status' => 'error',
 				),
 		
