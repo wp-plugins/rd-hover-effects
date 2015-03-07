@@ -5,7 +5,7 @@ Plugin URI: http://wpexpert24.com/
 Description: RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure CSS3. Easy to use the beautiful amazing Image Hover Effects for your website.
 Author: RAKIBUR RAHMAN SAGAR
 Author URI: http://wpexpert24.com/
-Version: 1.1
+Version: 1.2
 */
 
 //Loading CSS
@@ -28,7 +28,7 @@ defined( 'VP_RDHOVER_DIR' )     or define( 'VP_RDHOVER_DIR', plugin_dir_path( __
 defined( 'VP_RDHOVER_FILE' )    or define( 'VP_RDHOVER_FILE', __FILE__ );
 
 // Lood Bootstrap
-require 'option-framework/bootstrap.php';
+require 'framework/bootstrap.php';
 
 }
 
@@ -202,140 +202,140 @@ function rd_hover_effects_shortcode($atts){
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style7) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style8) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style9) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style10) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style11) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style12) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style13) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style14) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style15) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style16) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style17) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style18) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style19) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style20) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style21) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style22) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style23) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style24) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($style==style25) {
 		
 		$output .= '
 		
-			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://demo.wpexpert24.com/rd-hover-effect/?download=rd-hover-effects">CLICK HERE</a></h1>
+			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		$i++;
