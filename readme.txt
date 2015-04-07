@@ -59,7 +59,7 @@ RD Hover Effects Pro Version Features :
 
 == Installation ==
 
-<p>Installation of <strong>RD Hover Effect</strong> is very simple. </p>
+<p>Installation of <strong>RD Hover Effect</strong> is very simple.</p>
 
 == Installation ==
 
