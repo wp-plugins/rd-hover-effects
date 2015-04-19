@@ -212,6 +212,11 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 
 == Changelog ==
 
+= 2 =
+* Fixed Custom Width issue
+* Fixed Custom Height issue
+* Fixed Effects Issue
+
 = 1.2 =
 * Fixed color issue
 * hover padding issue fix
