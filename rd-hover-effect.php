@@ -5,7 +5,7 @@ Plugin URI: http://wpexpert24.com/
 Description: RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure CSS3. Easy to use the beautiful amazing Image Hover Effects for your website.
 Author: RAKIBUR RAHMAN SAGAR
 Author URI: http://wpexpert24.com/
-Version: 1.2
+Version: 2
 */
 
 //Loading CSS
