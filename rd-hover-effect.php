@@ -18,7 +18,6 @@ function rd_hover_effects_style() {
 }
 add_action( 'wp_enqueue_scripts', 'rd_hover_effects_style' );
 
-
 // Loading VafPress Framework
 if(!class_exists('VP_rdhoverAutoLoader')){
 // Setup Contants
