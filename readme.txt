@@ -213,6 +213,16 @@ After all of the steps above are done you will see a Menu named <strong>Add more
 
 == Changelog ==
 
+= 3 =
+* Added Custom Font Size For Title individually in Shortcode Option Panel
+* Added Custom Font Size For Description individually in shortcode Option Panel
+* Added Custom Font Size For Button individually in shortcode Option Panel
+* Added Custom Text Color For Title individually in shortcode Option Panel
+* Added Custom Text Color For Description individually in shortcode Option Panel
+* Added Custom Text Color For Button individually in shortcode Option Panel
+* Added Text Font Style 
+
+
 = 2 =
 * Fixed Custom Width issue
 * Fixed Custom Height issue
