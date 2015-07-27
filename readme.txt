@@ -12,8 +12,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure CSS3. Easy to use the beautiful amazing Image Hover Effects for your website.
 
+<h2 style="color: red;"> IMPORTANT : If you Update New Version 3.1 and your Item Not Showing On your website. please don't worry
+
+just add This in your current shortcode without bracket ( effects="square" or effects="circle").
+Example :
+If your shortcode was like that before :
+
+[hover category="rd_eff" style="style1" google_font="Roboto" title_font_size="18" title_color="#ffffff" title_font_style="normal"]
+
+Just now you should add effects Option like :
+
+[hover category="rd_eff" effects="square" style="style1" google_font="Roboto" title_font_size="18" title_color="#ffffff" title_font_style="normal"]</h2>
+
 
 See live demo here: http://wpexpert24.com/rd-hover-effects-wordpress/
+Documentation: http://wpexpert24.com/tutorials/rd-hover-effects/
 
 <strong>Video Tutorial:
 </strong>
