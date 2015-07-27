@@ -24,11 +24,13 @@ See live demo here: http://wpexpert24.com/rd-hover-effects-wordpress/
 
 <strong>Features</strong>
 <ul>
-
 <li>Easy to use</li>
 <li>No Javascript Pure CSS3</li>
 <li>Button link for each hover item</li>
-<li>5 unique hover effects</li>
+<li>5 unique Square hover effects</li>
+<li>5 unique Circle hover effects</li>
+<li>Custom Circle Animation </li>
+<li>Custom Circle Space Between Two Item </li>
 <li>Compatible for all major browsers</li>
 <li>Custom post enabled </li>
 <li>Category Support</li>
@@ -44,14 +46,21 @@ See live demo here: http://wpexpert24.com/rd-hover-effects-wordpress/
 RD Hover Effects Pro Version Features :
 	 
 	<li>External link for each hover item</li>
-	<li>25+ Hover Effects</li>
-	<li>Change Font Family With 500+Google Font</li>
+	<li>50+ Hover Effects</li>
+	<li>Change Font Family With 500+Goggle Font</li>
 	<li>Make item Middle in page</li>
 	<li>Unlimited Hover Items</li>
+	<li>Custom size For Title</li>
+	<li>Custom size For Description</li>
+	<li>Square & Circle Hover Type</li>
+	<li>Circle Animation With 4 effects</li>
 	<li>increase/decrease hover item width</li>
 	<li>increase/decrease hover item height</li>
 	<li>Space between two items</li>
 	<li>Show/Hide Border</li>
+	li>Custom size For Button</li>
+	<li>Custom Color For Text</li>
+	<li>Custom Style For Text</li>
 	<li>Chose Different Border Color</li>
 	<li>Space in bottom Dynamically</li>
 	<li>Change Unlimited color with Color Picker</li>
