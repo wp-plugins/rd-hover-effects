@@ -58,7 +58,7 @@ RD Hover Effects Pro Version Features :
 	<li>increase/decrease hover item height</li>
 	<li>Space between two items</li>
 	<li>Show/Hide Border</li>
-	li>Custom size For Button</li>
+	<li>Custom size For Button</li>
 	<li>Custom Color For Text</li>
 	<li>Custom Style For Text</li>
 	<li>Chose Different Border Color</li>
