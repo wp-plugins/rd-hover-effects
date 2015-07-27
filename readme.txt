@@ -15,7 +15,7 @@ RD Hover Effects WordPress Plugin is an impressive hover effects powered by pure
 <strong>IMPORTANT : If you Update New Version 3.1 and your Item Not Showing On your website. please don't worry. Just see this: http://prntscr.com/7xmai6</strong>
 
 
-<p>See live demo here:</p> http://wpexpert24.com/rd-hover-effects-wordpress/
+See live demo here: http://wpexpert24.com/rd-hover-effects-wordpress/
 <p>Documentation: http://wpexpert24.com/tutorials/rd-hover-effects/</p>
 
 <strong>Video Tutorial:
