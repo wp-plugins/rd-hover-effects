@@ -3,8 +3,8 @@ Contributors: Rakibur Rahman Sagar
 Tags: hover,hover effect, css3 hover effect, image hover, hover effect wordpress plugin, content image hover, image caption, wp image caption, css3 transition, pure css3 effects, css3 hover item,3d, 3d style effects, animated, animated image wp, animation, awesome css3 effects, awesome image effects, best hover effects, best image caption wordpress, best photo caption, button, caption, Caption WordPress Plugin, captions, Circle, clean, content hover, creative, CSS, Css Caption Plugin, css3, css3 effects for wordpress, css3 hover effects, css3 hover item, css3 image caption, css3 transition, effect, effects, gallery, grid, hover, hover effect, ihover wordpress plugin, image, image captions, image hover, image styles wordpress, material, minimal, photogallery, photos, pure css3 effects, responsive hover effects, square, Text effect, thumbnail, thumbnails, transition, wordpress animation, wordpress hover, wordpress image hover plugin, wp image caption
 
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 3.1
+Tested up to: 4.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
