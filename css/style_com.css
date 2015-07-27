@@ -54,7 +54,7 @@ text-align: center;
 background-color: rgba(0, 0, 0, 0.4);
 border-bottom: 0 none;
 box-shadow: 0 0 1px #000;
-color: #fff;
+color: #fff !important;
 display: inline-block;
 font-size: 15px;
 padding: 5px 14px;
