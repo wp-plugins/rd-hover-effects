@@ -30,7 +30,7 @@ width: 300px;
 }
 .rakib-dev h2 {
 border-bottom: 1px solid #fff;
-color: #fff;
+color: #fff !important;
 font-size: 17px;
 margin: 20px 0 0;
 padding: 7px;
@@ -40,7 +40,7 @@ text-transform: uppercase;
 }
 .rakib-dev p {
 margin-bottom: 20px !important;
-color: #fff;
+color: #fff !important;
 font-family: Georgia,serif;
 font-size: 13px;
 font-style: italic;
