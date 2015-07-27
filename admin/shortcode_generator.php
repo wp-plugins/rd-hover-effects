@@ -27,6 +27,27 @@ return array(
 
 
 					),
+						
+					
+			array(
+				'type' => 'radiobutton',
+				'name' => 'effects',
+				'label' => __('Select Hover Type', 'vp_textdomain'),
+				'items' => array(
+					array(
+						'value' => 'square',
+						'label' => __('Square', 'vp_textdomain'),
+					),
+					array(
+						'value' => 'circle',
+						'label' => __('Circle', 'vp_textdomain'),
+					),					
+				),
+				'default' => array(
+					'square',
+				),
+			),	
+						
 					
 					// Select Style from generator
 					array(
@@ -138,14 +159,53 @@ return array(
 							'label' => 'Style 25 (<strong>Pro Only</strong>)',
 						),			
 	
-				),	),			
+				),	),
+
+
+				 array(
+						'type' => 'slider',
+						'name' => 'circle_margin_right',
+						'label' => __('Circle Margin Right <p style="font-size: 11px; color: #005990; margin: 0;">work with circle</p>', 'vp_textdomain'),
+						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
+						'min' => '10',
+						'max' => '500',
+						'step' => '1',
+						'default' => '32',
+						),	
+
+			array(
+					'type' => 'select',
+					'name' => 'circle_animation',
+					'label' => __('Circle Animation <p style="font-size: 11px; color: #005990; margin: 0;">work with circle</p>', 'vp_textdomain'),
+					'default' => array(
+								'{{first}}',
+								),
+					'items' => array(
+						array(
+							'value' => 'left_to_right',
+							'label' => 'Left to right',
+						),
+						array(
+							'value' => 'right_to_left',
+							'label' => 'Right to left',
+						),
+						array(
+							'value' => 'top_to_bottom',
+							'label' => 'Top to bottom',
+						),
+						array(
+							'value' => 'bottom_to_top',
+							'label' => 'Bottom to top',
+						),		
+	
+				),	),				
 					
 // ADDED MORE //
 
 					array(
 						'type' => 'select',
 						'name' => 'google_font',
-						'label' => __('Choose Font Family (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Choose Font Family  <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'description' => __('Select Font', 'vp_textdomain'),
 						'default' => 'Roboto',
 						'items' => array(
@@ -163,7 +223,7 @@ return array(
 				 array(
 						'type' => 'slider',
 						'name' => 'title_font_size',
-						'label' => __('Title Font Size (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Title Font Size  <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '5',
 						'max' => '50',
@@ -176,7 +236,7 @@ return array(
 				array(
 						'type'  => 'color',
 						'name'  => 'title_color',
-						'label' => __('Title Color', 'vp_textdomain'),
+						'label' => __('Title Color  <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'default' => '#ffffff',
 					),
 					
@@ -184,7 +244,7 @@ return array(
 			array(
 				'type' => 'radiobutton',
 				'name' => 'title_font_style',
-				'label' => __('Title Font Style (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+				'label' => __('Title Font Style  <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 				'items' => array(
 					array(
 						'value' => 'normal',
@@ -204,7 +264,7 @@ return array(
 				 array(
 						'type' => 'slider',
 						'name' => 'desc_font_size',
-						'label' => __('Description Font Size (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Description Font Size  <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '5',
 						'max' => '50',
@@ -217,7 +277,7 @@ return array(
 				array(
 						'type'  => 'color',
 						'name'  => 'desc_color',
-						'label' => __('Description Color (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Description Color <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'default' => '#ffffff',
 					),
 					
@@ -225,7 +285,7 @@ return array(
 			array(
 				'type' => 'radiobutton',
 				'name' => 'desc_font_style',
-				'label' => __('Description Font Style (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+				'label' => __('Description Font Style <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 				'items' => array(
 					array(
 						'value' => 'normal',
@@ -246,7 +306,7 @@ return array(
 				 array(
 						'type' => 'slider',
 						'name' => 'button_font_size',
-						'label' => __('Button Font Size (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Button Font Size <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '5',
 						'max' => '50',
@@ -259,7 +319,7 @@ return array(
 				array(
 						'type'  => 'color',
 						'name'  => 'button_color',
-						'label' => __('Button Color (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Button Color <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'default' => '#ffffff',
 					),
 					
@@ -267,7 +327,7 @@ return array(
 			array(
 				'type' => 'radiobutton',
 				'name' => 'button_font_style',
-				'label' => __('Button Font Style (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+				'label' => __('Button Font Style <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 				'items' => array(
 					array(
 						'value' => 'normal',
@@ -289,7 +349,7 @@ return array(
 					 array(
 						'type' => 'slider',
 						'name' => 'item_width',
-						'label' => __('Image item Width (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Image item Width <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '200',
 						'max' => '1000',
@@ -299,7 +359,7 @@ return array(
 					 array(
 						'type' => 'slider',
 						'name' => 'item_height',
-						'label' => __('Image item Height (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Image item Height <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '185',
 						'max' => '800',
@@ -310,7 +370,7 @@ return array(
 array(
 						'type' => 'slider',
 						'name' => 'item_space_right',
-						'label' => __('Item margin Right (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Item margin Right <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '1',
 						'max' => '200',
@@ -321,7 +381,7 @@ array(
 					 array(
 						'type' => 'slider',
 						'name' => 'full_space_bottom',
-						'label' => __('Full Margin Bottom (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Full Margin Bottom <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '1',
 						'max' => '500',
@@ -332,7 +392,7 @@ array(
 						array(
 						'type' => 'slider',
 						'name' => 'hover_full_left',
-						'label' => __('Full Margin Left (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Full Margin Left <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						//'description' => __('This slider has minimum value of -10, maximum value of 17.5, sliding step of 0.1 and default value 15.9, everything can be customized.', 'vp_textdomain'),
 						'min' => '1',
 						'max' => '1000',
@@ -344,7 +404,7 @@ array(
 					array(
 						'type' => 'checkbox',
 						'name' => 'item_border',
-						'label' => __('show border (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('show border <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'items' => array(
 							array(
 								'value' => '1px solid',
@@ -355,7 +415,7 @@ array(
 					array(
 						'type'  => 'color',
 						'name'  => 'border_color',
-						'label' => __('Border Color (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Border Color <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'default' => '#ffffff',
 					),
 						
@@ -363,7 +423,7 @@ array(
 					array(
 						'type' => 'checkbox',
 						'name' => 'link_open',
-						'label' => __('Open link new tab? (<strong style="color: #FFA2A3;">Pro Only</strong>)', 'vp_textdomain'),
+						'label' => __('Open link new tab? <p style="font-size: 11px; color: #005990; margin: 0;">(work pro version only)</p>', 'vp_textdomain'),
 						'items' => array(
 							array(
 								'value' => '_blank',
