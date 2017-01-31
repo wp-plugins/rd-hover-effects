@@ -48,14 +48,14 @@ function rd_hover_effects_custom_post() {
 			'menu_position' => 20,
 		)
 	);
-	
+
 }
 add_action( 'init', 'rd_hover_effects_custom_post' );
 
 // Registering Custom post's category
 function rd_hover_effects_custom_post_taxonomy() {
 	register_taxonomy(
-		'hover_cat',  
+		'hover_cat',
 		'rd-hover',
 		array(
 			'hierarchical'          => true,
@@ -69,10 +69,10 @@ function rd_hover_effects_custom_post_taxonomy() {
 			)
 	);
 }
-add_action( 'init', 'rd_hover_effects_custom_post_taxonomy'); 
+add_action( 'init', 'rd_hover_effects_custom_post_taxonomy');
 require 'admin/icon.php';
 
-// Load Metaboxes 
+// Load Metaboxes
 
 new VP_Metabox(array
 (
@@ -88,38 +88,40 @@ new VP_Metabox(array
 function rd_hover_effects_shortcode($atts){
 	extract( shortcode_atts( array(
 
-		'category' => '',	
-		'style' => '',				
-		'effects' => '',				
-		'circle_animation' => '',				
-		'circle_margin_right' => '',				
-		
+		'category' => '',
+		'style' => '',
+		'effects' => '',
+		'circle_animation' => '',
+		'circle_margin_right' => '',
+
 	), $atts) );
-	
-	
+
+
 	    $q = new WP_Query(
         array('posts_per_page' => -1, 'post_type' => 'rd-hover', 'hover_cat' => $category)
         );
-	
+
 		while($q->have_posts()) : $q->the_post();
-		$id = get_the_ID();	
-		
-	
+		$id = get_the_ID();
+
+
 		$rdmeta = vp_metabox('rdmeta.rd-hover', false);
-		
-	$i = 0;
-	
+
+		$i = 0;
+
+		$google_font = isset($google_font) ? $google_font : 'Roboto';
+
 		$output = '<div id="'.$style.'"><ul>';
-		
-		foreach ($rdmeta as $info) {	
+
+		foreach ($rdmeta as $info) {
 
 		if ($effects=="square" && $style=="style1") {
-		
+
 		$output .= '
 			<style type="text/css">
-			@import url(http://fonts.googleapis.com/css?family='.$google_font.');
+			@import url(//fonts.googleapis.com/css?family='.$google_font.');
 			</style>
-			
+
 				<div class="rakib-dev rakib-dev-first">
                     <img src="'.$info['imgup_1'].'" />
 						<div class="mask">
@@ -127,16 +129,16 @@ function rd_hover_effects_shortcode($atts){
 								<p>'.$info['desc'].'</p>
 						<a href="'.$info['link'].'" class="info">'.$info['link_title'].'</a>
 					</div>
-                </div> 
+                </div>
 				';
 		}
 		if ($effects=="square" && $style=="style2") {
-		
+
 		$output .= '
 			<style type="text/css">
-			@import url(http://fonts.googleapis.com/css?family='.$google_font.');
+			@import url(//fonts.googleapis.com/css?family='.$google_font.');
 			</style>
-			
+
 		<div class="rakib-dev rakib-dev-second">
                     <img src="'.$info['imgup_1'].'" />
                     <div class="mask"></div>
@@ -149,12 +151,12 @@ function rd_hover_effects_shortcode($atts){
 				';
 		}
 		if ($effects=="square" && $style=="style3") {
-		
+
 		$output .= '
 			<style type="text/css">
-			@import url(http://fonts.googleapis.com/css?family='.$google_font.');
+			@import url(//fonts.googleapis.com/css?family='.$google_font.');
 			</style>
-			
+
 				<div class="rakib-dev rakib-dev-third">
                     <img src="'.$info['imgup_1'].'" />
 						<div class="mask">
@@ -162,16 +164,16 @@ function rd_hover_effects_shortcode($atts){
 								<p >'.$info['desc'].'</p>
 						<a href="'.$info['link'].'" class="info">'.$info['link_title'].'</a>
 					</div>
-                </div>  
+                </div>
 				';
 		}
 		if ($effects=="square" && $style=="style4") {
-		
+
 		$output .= '
 			<style type="text/css">
-			@import url(http://fonts.googleapis.com/css?family='.$google_font.');
+			@import url(//fonts.googleapis.com/css?family='.$google_font.');
 			</style>
-			
+
 				<div class="rakib-dev rakib-dev-fourth">
                     <img src="'.$info['imgup_1'].'" />
 						<div class="mask">
@@ -179,16 +181,16 @@ function rd_hover_effects_shortcode($atts){
 								<p >'.$info['desc'].'</p>
 						<a href="'.$info['link'].'" class="info">'.$info['link_title'].'</a>
 					</div>
-                </div>  
+                </div>
 				';
 		}
 		if ($effects=="square" && $style=="style5") {
-		
+
 		$output .= '
 			<style type="text/css">
-			@import url(http://fonts.googleapis.com/css?family='.$google_font.');
+			@import url(//fonts.googleapis.com/css?family='.$google_font.');
 			</style>
-			
+
 				<div class="rakib-dev rakib-dev-fifth">
                     <img src="'.$info['imgup_1'].'" />
 						<div class="mask">
@@ -196,154 +198,154 @@ function rd_hover_effects_shortcode($atts){
 								<p >'.$info['desc'].'</p>
 						<a href="'.$info['link'].'" class="info">'.$info['link_title'].'</a>
 					</div>
-                </div>  
+                </div>
 				';
 		}
 		if ($effects=="square" && $style=="style6") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style7") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style8") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
-		if ($$effects=="square" && $style=="style9") {
-		
+		if ($effects=="square" && $style=="style9") {
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style10") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style11") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style12") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style13") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style14") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style15") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style16") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style17") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style18") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style19") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style20") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style21") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style22") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style23") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style24") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
 		if ($effects=="square" && $style=="style25") {
-		
+
 		$output .= '
-		
+
 			<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 				';
 		}
-		
-	// START Carcle STYLE //	
-		
+
+	// START Carcle STYLE //
+
 		if ($effects=="circle" && $style=="style1") {
-		
+
 		$output .= '
 				<li style="margin:50px '.$circle_margin_right.'px 50px!important;" class="circle_single">
 		        <div class="item-hover circle effect1"><a href="'.$info['link'].'">
@@ -359,7 +361,7 @@ function rd_hover_effects_shortcode($atts){
 				';
 		}
 		if ($effects=="circle" && $style=="style2") {
-				
+
 				$output .= '
 						<li style="margin:50px '.$circle_margin_right.'px 50px!important;" class="circle_single">
 						  <div class="item-hover circle effect2 '.$circle_animation.'"><a href="'.$info['link'].'">
@@ -372,7 +374,7 @@ function rd_hover_effects_shortcode($atts){
 						';
 				}
 		if ($effects=="circle" && $style=="style3") {
-				
+
 				$output .= '
 						<li style="margin:50px '.$circle_margin_right.'px 50px!important;" class="circle_single">
                      <div class="item-hover circle effect3 '.$circle_animation.'"><a href="'.$info['link'].'">
@@ -385,7 +387,7 @@ function rd_hover_effects_shortcode($atts){
 						';
 				}
 			if ($effects=="circle" && $style=="style4") {
-				
+
 				$output .= '
 						<li style="margin:50px '.$circle_margin_right.'px 50px!important;" class="circle_single">
                   <div class="item-hover circle effect4 '.$circle_animation.'"><a href="'.$info['link'].'">
@@ -398,7 +400,7 @@ function rd_hover_effects_shortcode($atts){
 						';
 				}
 				if ($effects=="circle" && $style=="style5") {
-				
+
 				$output .= '
 					<li style="margin:50px '.$circle_margin_right.'px 50px!important;" class="circle_single">
                   <div class="item-hover circle effect5"><a href="'.$info['link'].'">
@@ -413,150 +415,150 @@ function rd_hover_effects_shortcode($atts){
 						';
 				}
 					if ($effects=="circle" && $style=="style6") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style7") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style8") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style9") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style10") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style11") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style12") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style13") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style14") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style15") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style16") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style17") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style18") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style19") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style20") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style21") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style22") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style23") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style24") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
 				}
 					if ($effects=="circle" && $style=="style25") {
-		
+
 				$output .= '
-				
+
 					<h1 style="color: red; ">SORRY THIS STYLE ONLY FOR PRO VERSION. IF YOU WANT TO BUY RD HOVER EFFECTS PRO VERSION WITH AWESOME FEATURES PLEASE CLICK HERE <a style="color: blue;" target="_blink" href="http://wpexpert24.com/rd-hover-effects-pro/">CLICK HERE</a></h1>
 						';
-				}				
-		
-		
+				}
+
+
 		$i++;
 	}
-	
+
 	endwhile;
 	$output .='</div></ul>';
 	wp_reset_query();
@@ -567,7 +569,7 @@ add_shortcode('hover', 'rd_hover_effects_shortcode');
 
 
 
-//Shortcode Generator 
+//Shortcode Generator
     function acb_init_shortcodegenerator()
     {
     // Built path to shortcode generator template array file
@@ -583,12 +585,12 @@ add_shortcode('hover', 'rd_hover_effects_shortcode');
     'sprite_image' => VP_RDHOVER_URL . 'images/hover-shortcode.png',
     //'included_pages' => array( 'appearance_page_vpt_option' ),
     );
-    
+
 	$sg = new VP_ShortcodeGenerator($tmpl_sg);
-    
+
 	}
-	
+
     // the safest hook to use, since Vafpress Framework may exists in Theme or Plugin
     add_action( 'after_setup_theme', 'acb_init_shortcodegenerator' );
-	
+
 	?>
